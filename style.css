@@ -1,0 +1,284 @@
+body {
+
+    margin 0px;
+   
+}
+
+
+
+
+.fondo{
+
+    background-image: linear-gradient(to left, red, yellow);
+
+}
+
+.fondo2{
+    background-image: radial-gradient(red 5%, yellow 25%, #1E90FF 25%);
+
+}
+
+.titulo{
+
+    font-size: 90px;
+    text-align: center;
+    color: rgb(20, 22, 18);
+}
+
+a{
+
+font-size: 30px;
+padding: 25px;
+left: 50px;
+transition: 2s;
+
+}
+
+
+
+
+    
+    a:hover{
+    font-size: 50px;
+    background-color: rgb(118, 110, 126);
+    
+    }
+
+
+
+
+
+
+
+
+.b{
+
+    font-size: 30px;
+    padding: 25px;
+    left: 50px;
+    
+    
+    }
+
+
+.grid-container{
+
+display: grid;
+background-color: rgb(0, 255, 106);
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(6, 1fr);
+column-gap: 10px;
+row-gap: 15px;
+
+
+
+}
+
+
+.grid-item{
+
+border: 2px solid black;
+
+}
+
+#itemnavegacion{
+
+
+
+grid-column-start: 1;
+grid-column-end: 2;
+
+grid-row-start: 1;
+grid-row-end: 7;
+
+
+}
+
+#item-header{
+
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 6;
+
+    grid-row-start:1 ;
+    grid-row-end: 2;
+}
+
+#item-section{
+
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+    grid-row-start:2 ;
+    grid-row-end: 4;
+
+}
+
+#item-2section{
+    
+    grid-column-start: 2;
+    grid-column-end: 5;
+   
+    grid-row-start: 4;
+    grid-row-end: 6;
+
+
+}
+
+#item-aside{
+    
+    grid-column-start: 5;
+    grid-column-end: 6;
+   
+    grid-row-start: 2;
+    grid-row-end: 6;
+
+
+}
+
+
+#item-footer{
+
+    grid-column-start: 2;
+    grid-column-end: 6;
+   
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+
+}
+.flex-container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    
+
+
+    .fotoranking{
+
+    
+        margin: auto;
+        width:450px ;
+        height:550px;
+    }
+    
+    .rankings{
+        
+        margin: auto;
+        width: 550px;
+        height: 450px;
+        background-color: black;
+        overflow: scroll;
+        
+    
+    
+    }
+
+    .texto{
+
+        padding: 20px;
+        text-align: center;
+        font-size: larger;
+        color: rgb(31, 31, 6);
+        font-family: cursive;
+        
+             }
+
+             .lista{
+                color: rgb(126, 123, 123);
+                text-align: center;
+                font-size: 30px;
+                list-style: none;
+            
+            }
+
+@media screen and (min-width: 320px){
+
+                .grid-container{
+            
+                    background-color: rgb(0, 255, 213);
+                    
+                }
+
+@media screen and (min-width: 600px){
+
+    .grid-container{
+
+        background-color: red;
+        
+    }
+
+}
+@media screen and (min-width: 768px){
+
+    
+
+.flex1{
+padding: 60px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+    background-color: yellow;
+
+}
+
+.cuadrado{
+border: 1px solid black;
+padding: 60px;
+background-color: red;
+transform: skew(20deg, 20deg);
+
+}
+
+.mini{
+
+    border: 1px solid black;
+    padding: 60px;
+    background-color: aqua;
+    transform: translate(10px, 10px);
+    
+
+}
+
+.supermini{
+width: 80px;
+height: 80px;
+border: 1px solid black;
+padding: 40px;
+background-color: deeppink;
+animation-name: efecto1;
+animation-iteration-count: 1;
+animation-duration: 1s;
+
+
+    
+
+}
+
+
+
+@keyframes efecto1 {
+
+0%{width: 80px;}
+50%{width: 100px; background-color: green ;}
+100%{width: 80px;}
+
+}
+
+
+.ultimodiv{
+padding: 30px;
+height: 40px;
+width: 40px;
+transition: 2s;
+
+}
+
+.ultimodiv:hover{
+height: 80px;
+background-color: blueviolet;
+
+}
