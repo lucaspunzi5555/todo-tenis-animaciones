@@ -366,3 +366,19 @@ height: 80px;
 background-color: blueviolet;
 
 }
+
+.absolute{
+
+    position: absolute;
+    color: rgb(68, 11, 11);
+    right: 0px;
+    border: solid;
+    background-color: rgb(36, 68, 5);
+}
+
+.posicion{
+
+    position: relative;
+    left: 0px;
+    
+}
