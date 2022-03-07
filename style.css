@@ -213,95 +213,7 @@ grid-row-end: 7;
 }
 @media screen and (min-width: 768px){
 
-<<<<<<< HEAD
     
-=======
-    .grid-container{
-
-        background-color: rgb(255, 187, 0);git border-start-end-radius: ;
-    }
-
-}
-
-
-.flex{
-
-    display: flex;
-    flex-direction: row;
-    
-    background-image: linear-gradient(to left, red, yellow);
-    margin: 10px 10px 10px 10px;
-    justify-content: center;
-
-}
-
-
-
-#item1{
-
-    border: 1px solid black;
-    padding: 30px;
-}
-
-.cont2{
-
-    display: grid;
-    margin: 20px;
-    grid-template-columns: 50px 1fr;
-    grid-template-rows: 50px 50px 50px ;
-    border: 1px solid black;
-    justify-content: center;
-    background-image: radial-gradient(red 5%, yellow 25%, #1E90FF 25%);
-}
-
-#item2{
-
-    
-    border: 1px solid black;
-}
-
-#item3{
-
-transform: rotate(180deg);
-background-color: red;
-border: 1px solid black;
-    
-}
-
-
-.flex{
-
-    display: flex;
-    flex-direction: row;
-    
-    background-image: linear-gradient(to left, red, yellow);
-    margin: 10px 10px 10px 10px;
-    justify-content: center;
-
-}*/
-
-
-}
-
-.cont3{
-
-    display: grid;
-   
-    grid-template-columns: 100px 1fr;
-    grid-template-rows: 100px 100px 100px ;
-    column-gap: 10px;
-row-gap: 15px;
-
-    
-    
-}
-
-#item5{
-
-    
-    border: 1px solid black;
-}
->>>>>>> todo-diseno
 
 .flex1{
 padding: 60px;
@@ -357,22 +269,6 @@ animation-duration: 1s;
 }
 
 
-.ultimodiv{
-padding: 30px;
-height: 40px;
-width: 40px;
-transition: 2s;
-
-}
-
-.ultimodiv:hover{
-height: 80px;
-background-color: blueviolet;
-
-<<<<<<< HEAD
-=======
-}
-
 .absolute{
 
     position: absolute;
@@ -387,5 +283,5 @@ background-color: blueviolet;
     position: relative;
     left: 0px;
     
->>>>>>> todo-diseno
 }
+
